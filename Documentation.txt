@@ -1,0 +1,11 @@
+The code is designed to read purchase records from an input file and store them in a map data structure, where each item is a key and its corresponding purchase count is the value. The user is presented with a menu of options to choose from, including searching for a specific item, printing the frequency of all items, and printing a histogram of item frequencies. The code also includes the ability to save the data to an output file.
+
+To begin, the code reads the input file using an ifstream and stores each item and its purchase count in the map data structure. The main program loop presents the user with a menu of options using cout statements and takes in user input using cin statements. The switch statement is used to execute the appropriate function based on the user's input.
+
+The optionOne function prompts the user to enter an item to search for, and then searches the map data structure for that item. If the item is found, the function prints its frequency, and if not, it prints an error message.
+
+The optionTwo function prints the frequency of all items in the map data structure using a for loop that iterates through each key-value pair.
+
+The optionThree function prints a histogram of the item frequencies using a nested for loop. The outer loop iterates through each key-value pair and prints the item's name. The inner loop then prints asterisks for each purchase count value.
+
+The saveData function writes the contents of the map data structure to an output file using an ofstream. If the output file can't be created, the function prints an error message.

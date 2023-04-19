@@ -1,0 +1,10 @@
+Apples 
+Bananas 
+Oranges 
+Grapes 
+Strawberries 
+Pineapple 
+Mangoes 
+Lemons 
+Limes 
+Apples
